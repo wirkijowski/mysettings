@@ -9,4 +9,4 @@ autoload -U colors && colors
 compinit
 # End of lines added by compinstall
 grey='%{^[[37m%}'
-PS1="%B%{${fg[red]}%}[%{${fg[magenta]}%}%n%{${fg[yellow]}%}@%{${fg[cyan]}%}%M%{${fg[red]}%}]%b %{${fg[white]}%}%30<..<%~%{${fg[green]}%}%# %{${fg[default]}%}"
+PS1="%B%{${fg[red]}%}[%{${fg[magenta]}%}%n%{${fg[yellow]}%}@%{${fg[cyan]}%}%m%{${fg[red]}%}]%b %{${fg[white]}%}%30<..<%~%{${fg[green]}%}%# %{${fg[default]}%}"
