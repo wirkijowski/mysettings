@@ -1,0 +1,10 @@
+deflogin on
+autodetach on
+startup_message off
+shell zsh
+hardstatus on
+setenv PS1 '\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]~ `basename ${PWD}`\[\033[00m\033k\033\\\] \$ '
+shelltitle "~ |zsh"
+hardstatus alwayslastline
+hardstatus string '%{gk}[ %{G}%H %{g}][%= %{wk}%?%-Lw%?%{=b kR}(%{W}%n*%f %t%?(%u)%?%{=b kR})%{= kw}%?%+Lw%?%?%= %{g}][%{Y}%l%{g}]%{=b C}[ %m/%d %c ]%{W}'
+#hardstatus string '%{= kg}[ %{G}%H %{g}][%= %{= kw}%?%-Lw%?%{=b kR}(%{W}%n*%f %t%?(%u)%?%{=b kR})%{= kw}%?% Lw%?%?%= %{g}]%{=b C}[ %d %M %c ]%{W}'
